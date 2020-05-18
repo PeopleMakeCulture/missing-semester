@@ -124,7 +124,7 @@ But how does the shell know how to find the `date` or `echo` programs?
 Well, the shell is a programming environment, just like Python or Ruby,
 and so it has variables, conditionals, loops, and functions (next
 lecture!). When you run commands in your shell, you are really writing a
-small bit of code that your shell interprets. If the shell is asked to
+small bit of code that your shell interprets. If we ask the shell to
 execute a command that doesn't match one of its programming keywords, it
 consults an _environment variable_ called `$PATH` that lists which
 directories the shell should search for programs when it is given a
